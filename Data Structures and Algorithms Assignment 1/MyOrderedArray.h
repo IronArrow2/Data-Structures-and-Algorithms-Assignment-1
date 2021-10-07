@@ -22,6 +22,11 @@ public:
 		// Step 1: Find the index to insert val
 		for (i = 0; i < MyArray<T>::m_numElements; i++)
 		{
+			if (MyArray<T>::m_array[i] == val)
+			{
+				//duplicate data, don't finish insertion operation
+				return;
+			}
 			if (MyArray<T>::m_array[i] > val)
 			{
 				break;

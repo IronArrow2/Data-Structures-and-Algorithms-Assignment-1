@@ -108,6 +108,8 @@ protected:
 
 		m_maxSize += m_growSize;
 
+		m_growSize = m_growSize * 2;
+
 		return true;
 	}
 protected:
