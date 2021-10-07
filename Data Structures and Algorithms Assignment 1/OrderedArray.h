@@ -1,9 +1,8 @@
 #pragma once
 #include <cassert>
-#include "MyArray.h"
 
 template<class T>
-class OrderedArray : public MyArray<T>
+class OrderedArray
 {
 public:
 	// Constructor

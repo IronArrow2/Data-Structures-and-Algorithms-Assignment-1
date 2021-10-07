@@ -1,8 +1,7 @@
 #include <iostream>
 #include "MyArray.h"
 #include "MyUnorderedArray.h"
-#include "UnorderedArray.h"
-#include "OrderedArray.h"
+#include "MyOrderedArray.h"
 using namespace std;
 
 int main()

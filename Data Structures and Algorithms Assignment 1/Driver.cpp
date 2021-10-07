@@ -1,12 +1,12 @@
 #include <iostream>
 // #include "UnorderedArray.h"
-#include "OrderedArray.h"
+#include "MyOrderedArray.h"
 
 using namespace std;
 
 int main()
 {
-	OrderedArray<int> array(3);
+	MyOrderedArray<int> array(3);
 	
 	array.push(3);
 	array.push(53);

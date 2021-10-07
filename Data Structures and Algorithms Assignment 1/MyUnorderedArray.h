@@ -6,10 +6,7 @@ template<class T>
 class MyUnorderedArray : public MyArray<T>
 {
 public:
-	MyUnorderedArray(int size, int growBy = 1) : MyArray<T>(size, growBy)
-	{
-		
-	}
+	MyUnorderedArray(int size, int growBy = 1) : MyArray<T>(size, growBy) {}
 	~MyUnorderedArray() = default;
 
 	// Fast insertion for UnorderedArray -- Big-O is O(1)
