@@ -1,5 +1,4 @@
 #pragma once
-#include <cassert>
 #include "MyArray.h"
 
 template<class T>
