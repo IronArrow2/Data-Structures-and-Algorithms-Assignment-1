@@ -32,6 +32,14 @@ int main()
 		cout << oa[i] << " ";
 	}
 
+	cout << "\nUnordered Array grow size: " << ua.GetGrowSize();
+
+	cout << "\nOrdered Array grow size: " << oa.GetGrowSize();
+
+	cout << "\nUnordered Array max size: " << ua.GetMaxSize();
+
+	cout << "\nOrdered Array max size: " << oa.GetMaxSize();
+
 	cout << endl;
 
 	ua.clear();
